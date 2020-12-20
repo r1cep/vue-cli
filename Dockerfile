@@ -1,4 +1,4 @@
-FROM node:14.11.0-alpine3.11
+FROM node:15.4.0-alpine3.12
 
 ENV CHOKIDAR_USEPOLLING=true
 RUN yarn global add \
